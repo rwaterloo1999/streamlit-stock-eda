@@ -1,25 +1,31 @@
-#Stock Exchange Data Analysis 
-##BAN 601: Tech Fundamentals for Analytics 
+# Stock Exchange Data Analysis
 
-The purpose of this project is to create an interactive application that allows for Exploratory Data Analysis (EDA). This specific application allows the user to explore this dataset based around stock data that was collected. The data is showcased using a histogram that helps illustrate the distribution of the data. 
+## BAN 601: Tech Fundamentals for Analytics
 
-**Features** 
--Interactive user inputs to explore different aspects of the dataset. 
--Select the specific numeric value to display
--Adjust the amount of bins 
--Display statistical summary for selected stock 
+This project is an interactive Streamlit application for Exploratory Data Analysis (EDA) using a stock market dataset.  
+The app lets the user select a stock symbol and a numeric variable, then visualizes the distribution using a histogram and displays summary statistics.
 
-**Dataset**
+## Features
 
--Symbol
--Date
--Open (Opening Price)
--High (Daily Maximum)
--Low (Daily Minimum)
--Close (Closing Price)
--Volume (Daily Shared Traded)
+- Interactive sidebar controls
+- Select a stock symbol (ticker)
+- Select a numeric variable to visualize (open, high, low, close, volume)
+- Adjust the number of histogram bins
+- View summary statistics for the selected variable
 
-**Libraries**
--Streamlit
--Python
--Mathplotlib
+## Dataset Columns
+
+- **symbol** — stock ticker
+- **date** — trading date
+- **open** — opening price
+- **high** — daily maximum price
+- **low** — daily minimum price
+- **close** — closing price
+- **volume** — daily shares traded
+
+## Libraries Used
+
+- Streamlit
+- Pandas
+- Matplotlib
+
